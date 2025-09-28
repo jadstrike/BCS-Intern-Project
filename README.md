@@ -113,7 +113,6 @@ Deploy to any static hosting service:
 ## Contact
 
 - **Email**: issaciscoding@gmail.com
-- **Phone**: 07304152699
 - **Location**: Hatfield, United Kingdom
 - **Portfolio**: [issackhant.vercel.app](https://issackhant.vercel.app/)
 
