@@ -35,6 +35,16 @@ This portfolio demonstrates expertise in:
 
 ## Performance Testing Results
 
+### Desktop Performance
+
+![Desktop Performance Results](public/performance-desktop.png)
+
+### Mobile Performance
+
+![Mobile Performance Results](public/performance-mobile.png)
+
+### Performance Summary
+
 [![Lighthouse Performance](https://img.shields.io/badge/Performance-95%2F100-brightgreen)](https://pagespeed.web.dev/)
 [![Lighthouse Accessibility](https://img.shields.io/badge/Accessibility-98%2F100-brightgreen)](https://pagespeed.web.dev/)
 [![Lighthouse Best Practices](https://img.shields.io/badge/Best%20Practices-100%2F100-brightgreen)](https://pagespeed.web.dev/)
@@ -51,8 +61,8 @@ This portfolio demonstrates expertise in:
 ### Performance Score Breakdown
 
 ```
-Performance:  ████████████████████ 95/100
-Accessibility: ████████████████████ 98/100
+Performance:  ████████████████████ 100/100
+Accessibility: ████████████████████ 96/100
 Best Practices: ████████████████████ 100/100
 SEO:          ████████████████████ 100/100
 ```
