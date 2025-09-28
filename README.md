@@ -1,6 +1,6 @@
-# Portfolio Website
+# Khant Zwe Naing - Portfolio Website
 
-A modern, accessible portfolio website built with vanilla HTML, CSS, and JavaScript following WCAG 2.2 AA guidelines and modern web development best practices.
+A modern, accessible portfolio website showcasing creative web development projects, AI/ML solutions, and innovative 3D web experiences. Built with vanilla HTML, CSS, and JavaScript following WCAG 2.2 AA guidelines and modern web development best practices.
 
 ## Features
 
@@ -33,6 +33,7 @@ A modern, accessible portfolio website built with vanilla HTML, CSS, and JavaScr
 - Required fields: First Name, Last Name, Email, Message
 - Optional field: Phone Number
 - Accessible error messages with aria-live regions
+- Success modal with JavaScript animations
 - Form submission with loading states
 
 ### ⚡ Performance Optimized
@@ -42,6 +43,27 @@ A modern, accessible portfolio website built with vanilla HTML, CSS, and JavaScr
 - Lazy loading for images
 - Smooth scrolling and transitions
 
+## Featured Projects
+
+### 🚀 Astrafinix Startup Website
+
+- **Tech Stack**: React, Three.js, WebGL, Vite
+- **Description**: Innovative startup website featuring immersive 3D experiences and cutting-edge web technologies
+- **Live Demo**: [View Project](https://astrafinix-startup.vercel.app/)
+
+### 🏥 Medical X-Ray Image Classification
+
+- **Tech Stack**: Python, TensorFlow, Streamlit, Deep Learning
+- **Description**: Award-winning AI solution for medical X-ray image classification with Streamlit web application
+- **Achievement**: First Prize in Data Science Competition
+- **Live Demo**: [View Project](https://medical-xray-classifier.streamlit.app)
+
+### 🌌 Galaxy Links Tree Website
+
+- **Tech Stack**: Three.js, WebGL, JavaScript, CSS3
+- **Description**: Revolutionary Links Tree website reimagined as an interactive 3D galaxy experience
+- **Live Demo**: [View Project](https://issackhant.vercel.app/)
+
 ## File Structure
 
 ```
@@ -49,7 +71,12 @@ portfolio/
 ├── index.html          # Main HTML structure
 ├── styles.css          # CSS styles and responsive design
 ├── script.js           # JavaScript functionality
-└── README.md          # Project documentation
+├── .gitignore          # Git ignore file
+├── README.md          # Project documentation
+├── DEPLOYMENT.md       # Deployment guide
+├── PROJECT_WRITEUP.md  # 250-word project write-up
+├── FINAL_REVIEW.md     # Final review document
+└── 01-style.md to 08-acceptance-checks.md  # BCS guidelines
 ```
 
 ## Getting Started
@@ -62,12 +89,14 @@ portfolio/
 
 ### Personal Information
 
-Update the following in `index.html`:
+The portfolio is already customized with:
 
-- Replace "Your Name" with your actual name
-- Update the hero subtitle and description
-- Add your actual email and phone number
-- Replace placeholder project information
+- **Name**: Khant Zwe Naing
+- **Title**: Frontend Developer & UI/UX Designer, Creative Developer
+- **Location**: Hatfield, United Kingdom
+- **Email**: issaciscoding@gmail.com
+- **Phone**: 07304152699
+- **Projects**: Three featured projects with live demos
 
 ### Styling
 
@@ -79,11 +108,12 @@ Modify CSS custom properties in `styles.css`:
 
 ### Form Integration
 
-The contact form currently shows a success message after 2 seconds. To integrate with a real backend:
+The contact form currently shows a success modal after 2 seconds. To integrate with a real backend:
 
 1. Replace the setTimeout in `script.js` with an actual API call
 2. Add proper error handling for failed submissions
 3. Consider adding CSRF protection and rate limiting
+4. The success modal provides better UX than inline messages
 
 ## Browser Support
 
@@ -121,6 +151,29 @@ This is a static website that can be deployed to any static hosting service:
 - AWS S3 + CloudFront
 - Any web server
 
+## Skills & Technologies
+
+### Frontend Development
+
+- HTML5, CSS3, JavaScript (ES6+)
+- React, Three.js, WebGL
+- Responsive Design, Mobile-First Approach
+- UI/UX Design, 3D Web Design
+
+### AI/ML & Data Science
+
+- Python, TensorFlow, Deep Learning
+- Streamlit, Data Visualization
+- Medical Image Classification
+- Computer Vision
+
+### Tools & Practices
+
+- Git, GitHub, Version Control
+- WCAG 2.2 AA Accessibility Standards
+- Performance Optimization
+- Cross-browser Compatibility
+
 ## Development Guidelines
 
 This project follows the BCS Code of Conduct and development standards:
@@ -135,6 +188,13 @@ This project follows the BCS Code of Conduct and development standards:
 ## License
 
 This project is open source and available under the MIT License.
+
+## Contact
+
+- **Email**: issaciscoding@gmail.com
+- **Phone**: 07304152699
+- **Location**: Hatfield, United Kingdom
+- **Portfolio**: [issackhant.vercel.app](https://issackhant.vercel.app/)
 
 ## Support
 

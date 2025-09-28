@@ -482,6 +482,7 @@ section {
   display: inline-block;
   font-weight: var(--font-weight-bold);
   position: relative;
+  transition: all 0.3s ease;
 }
 
 /* Fallback for browsers that don't support background-clip: text */
