@@ -669,6 +669,7 @@ section {
 
 .project-card:hover::before {
   opacity: 0.05;
+  pointer-events: none;
 }
 
 .project-card:hover {
@@ -729,6 +730,8 @@ section {
 
 .project-content {
   padding: var(--spacing-6);
+  position: relative;
+  z-index: 2;
 }
 
 .project-title {
@@ -760,6 +763,8 @@ section {
 .project-links {
   display: flex;
   gap: var(--spacing-4);
+  position: relative;
+  z-index: 4;
 }
 
 .project-link {
@@ -768,11 +773,22 @@ section {
   padding: var(--spacing-2) 0;
   border-bottom: 1px solid transparent;
   transition: border-color var(--transition-fast);
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  z-index: 3;
 }
 
 .project-link:hover {
   border-bottom-color: var(--color-primary);
   cursor: pointer;
+  color: var(--color-primary-dark);
+}
+
+.project-link:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: var(--border-radius-sm);
 }
 
 /* Skills section */
