@@ -84,7 +84,6 @@ yarn.lock
 dist/
 build/
 out/
-public/
 
 # Environment Variables
 .env
