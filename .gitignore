@@ -1,5 +1,13 @@
 # Portfolio Website .gitignore
 
+# IDE and Editor Files
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
 # Operating System Files
 # macOS
 .DS_Store
